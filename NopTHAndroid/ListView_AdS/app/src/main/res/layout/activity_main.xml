@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp">
+        <TextView
+            android:text="Tên: "
+            android:textSize="40dp"
+            android:layout_gravity="center"
+            android:paddingLeft="20dp"
+            android:layout_marginTop="6dp"
+            android:layout_width="110dp"
+            android:layout_height="match_parent"/>
+
+        <EditText
+            android:id="@+id/edtNhapTen"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="Nhập Tên"
+            android:paddingLeft="20dp"
+            android:textSize="30dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp">
+
+        <Button
+            android:id="@+id/btnNhap"
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="130dp"
+            android:onClick="ThemPhanTu"
+            android:text="Search"
+            android:textSize="30dp" />
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/edtThongTin"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#247C3A"
+        android:ems="10"
+        android:inputType="text"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <ListView
+        android:id="@+id/lvTen"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#F8EC82" />
+</LinearLayout>
