@@ -6,57 +6,58 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/custom_bgr"
     tools:context=".MainActivity">
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:background="#67C1EA"
+        android:allowUndo="false"
+        android:background="#C767EA"
+        android:fontFamily="sans-serif-black"
         android:gravity="center"
         android:text="BMI APP"
         android:textColor="@color/black"
         android:textSize="40sp"
-        android:fontFamily="sans-serif-black"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintBottom_toTopOf="@+id/textView2"
-        />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="CÂN NẶNG"
-        android:textSize="30sp"
-        android:textColor="#FDFEFF"
+        android:layout_height="31dp"
+        android:background="#811D1D"
         android:fontFamily="sans-serif-black"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView"
+        android:text="CÂN NẶNG"
+        android:textColor="#FDFEFF"
+        android:textSize="30sp"
         app:layout_constraintBottom_toTopOf="@+id/edtCN"
-        />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.061"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
 
     <EditText
         android:id="@+id/edtCN"
         android:layout_width="0dp"
         android:layout_height="48dp"
         android:layout_marginStart="32dp"
+        android:layout_marginTop="88dp"
         android:layout_marginEnd="32dp"
         android:gravity="center"
         android:hint="0"
         android:inputType="number"
-        android:textSize="20sp"
         android:textColor="@color/black"
         android:textColorHint="@color/black"
+        android:textSize="20sp"
         android:textStyle="italic"
-        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView2"
-        app:layout_constraintBottom_toTopOf="@+id/textView3"
-        />
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
     <Button
         android:id="@+id/btnKQ"
         android:layout_width="wrap_content"
@@ -64,19 +65,17 @@
         android:layout_marginTop="24dp"
         android:background="@drawable/press_btn"
         android:text="RESULT"
-        android:textSize="20sp"
         android:textColor="@color/white"
-        app:backgroundTint="@null"
-        app:layout_constraintStart_toStartOf="parent"
+        android:textSize="20sp"
+        app:backgroundTint="#881D1D"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/edtCN" />
 
     <EditText
-        android:id="@+id/edtCN"
         android:layout_width="0dp"
         android:layout_height="48dp"
-        android:layout_marginTop="24dp"
-        android:layout_marginStart="24dp"
+        android:layout_marginTop="32dp"
         android:layout_marginEnd="24dp"
         android:ems="10"
         android:gravity="center"
@@ -86,8 +85,9 @@
         android:textColorHint="@color/black"
         android:textSize="20sp"
         android:textStyle="italic"
-        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView2" />
 
     <TextView
@@ -110,7 +110,6 @@
         android:text="RESET"
         android:textSize="20sp"
         android:textColor="@color/white"
-        android:background="@drawable/press2_btn"
         app:backgroundTint="@null"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
