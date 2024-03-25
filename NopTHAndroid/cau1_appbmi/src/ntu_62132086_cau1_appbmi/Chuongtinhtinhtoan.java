@@ -71,7 +71,7 @@ public class Chuongtinhtinhtoan extends JFrame{
 		clear.setForeground(Color.BLACK);
 		clear.setFont(new Font("Tahoma", Font.ITALIC, 16));
 		clear.setBackground(new Color(255, 255, 0));
-		clear.setBounds(108, 290, 94, 42);
+		clear.setBounds(141, 243, 94, 42);
 		BMI.add(clear);
 		
 		JLabel lblNewLabel_1 = new JLabel("");
