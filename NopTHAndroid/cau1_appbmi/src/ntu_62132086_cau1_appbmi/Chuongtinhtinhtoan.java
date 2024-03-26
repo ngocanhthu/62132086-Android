@@ -82,13 +82,11 @@ public class Chuongtinhtinhtoan extends JFrame{
 		
 		inputweight = new JTextField();
 		inputweight.setFont(new Font("Tahoma", Font.PLAIN, 14));
-		inputweight.setText("Input Weight");
 		inputweight.setBounds(100, 37, 177, 35);
 		BMI.add(inputweight);
 		inputweight.setColumns(10);
 		
 		inputheight = new JTextField();
-		inputheight.setText("Input Height");
 		inputheight.setFont(new Font("Tahoma", Font.PLAIN, 14));
 		inputheight.setColumns(10);
 		inputheight.setBounds(100, 109, 177, 35);

@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Cau4_BanThan</string>
+    <string name="t_n">Tên:</string>
+    <string name="tu_i">Tuổi:</string>
+    <string name="todo">TODO</string>
+    <string name="ngoc_thu">Tên: Nguyễn Ngọc Anh Thư</string>
+    <string name="todo_1">TODO</string>
+    <string name="thong_tin">Khoa: Công Nghệ Thông Tin</string>
+    <string name="yeu_thich">Sở thích: Hát</string>
+    <string name="thu">TRẦN NGỌC LƯƠNG</string>
+    <string name="todo1">TODO</string>
+    <string name="mssv_62132086">MSSV: 62132086</string>
+    <string name="khoa_c_ng_ngh_th_ng_tin">Khoa Công Nghệ Thông Tin</string>
+    <string name="chuy_n_ng_nh_c_ng_ngh_ph_n_m_m">Chuyên ngành: Công nghệ phần mềm</string>
+    <string name="qu_qu_n_kh_nh_h_a">Quê quán: Khánh Hòa</string>
+    <string name="myself">MySelf</string>
+    <string name="s_th_ch_nghe_nh_c_xem_phim">Sở thích: Nghe nhạc, Xem phim</string>
+    <string name="todo111">TODO</string>
+    <string name="c_m_gi_u_c_ngiu">Ước mơ: Giàu, Có ngiu</string>
+    <string name="nguy_n_ng_c_anh_th">Nguyễn Ngọc Anh Thư</string>
+    <string name="n_u_n_h_c_ti_ng_nh_t">Nấu ăn ,Học Tiếng Nhật</string>
+    <string name="b_n_th_n">Bản Thân</string>
+    <string name="c_g_ng_h_c_gi_i">Cố găng học giỏi</string>
+    <string name="TODO1">TODO</string>
+</resources>
