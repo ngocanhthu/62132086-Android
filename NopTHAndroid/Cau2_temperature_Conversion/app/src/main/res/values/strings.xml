@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Cau2_temperature_Conversion</string>
+    <string name="fahrenheit">Fahrenheit:</string>
+    <string name="_0">0</string>
+    <string name="celsius">Celsius:</string>
+    <string name="_1">0</string>
+    <string name="f_to_c">°F to °C</string>
+    <string name="c_to_f">°C to °F</string>
+    <string name="clear">Clear</string>
+</resources>
