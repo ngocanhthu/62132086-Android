@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">HelloAndroid</string>
+    <string name="_0">_0</string>
+    <string name="fahrenheit">fahrenheit</string>
+    <string name="celsius">celsius</string>
+    <string name="_1">_</string>
+    <string name="f_to_c">q</string>
+    <string name="c_to_f">c</string>
+    <string name="clear">clear</string>
 </resources>
