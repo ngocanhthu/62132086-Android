@@ -24,6 +24,13 @@ public class MainActivity extends AppCompatActivity {
         recyclerViewLandScape = findViewById(R.id.recyclerland);
         //5
         RecyclerView.LayoutManager layoutLinear = new LinearLayoutManager(this);
+        //6 tao a dapter 2 contex va du lieu
+
+        landScapeAdapter = new LandScapeAdapter(this,recylerData);
+        //7
+        recyclerViewLandScape.setAdapter(landScapeAdapter);
+
+
     }
 
     //tra ve danh sach ;anscape
