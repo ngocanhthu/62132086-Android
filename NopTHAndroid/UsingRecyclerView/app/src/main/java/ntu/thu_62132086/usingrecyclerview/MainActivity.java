@@ -23,7 +23,9 @@ public class MainActivity extends AppCompatActivity {
         // tim dieu khien tao lay out to contruster
         recyclerViewLandScape = findViewById(R.id.recyclerland);
         //5
-        RecyclerView.LayoutManager layoutLinear = new LinearLayoutManager(this);
+//        RecyclerView.LayoutManager layoutLinear = new LinearLayoutManager(this);
+        RecyclerView.LayoutManager layoutLinearHorizonal = new LinearLayoutManager(this,LinearLayoutManager.HORIZONTAL,false);
+
         //6 tao a dapter 2 contex va du lieu
 
         landScapeAdapter = new LandScapeAdapter(this,recylerData);
