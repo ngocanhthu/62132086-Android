@@ -26,5 +26,6 @@ public class LandScape {
     }
 
     String landImageFileName;
+
     String landCaption;
 }
