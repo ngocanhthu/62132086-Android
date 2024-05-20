@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="navigation_cau1" type="id">navigation_cau1</item>
+    <item name="navigation_welcome" type="id">1</item>
+    <item name="navigation_cau2" type="id">02</item>
+    <item name="navigation_cau3" type="id">03</item>
+    <item name="navigation_cau4" type="id">04</item>
+    <item name="navigation_cau5" type="id">navigation_o4</item>
+</resources>

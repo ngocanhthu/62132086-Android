@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">BaiTapTongHop</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="b_i_thi_cu_i_k">BÀI THI CUỐI KỲ</string>
+    <string name="l_th_nh_n_ng_h_ng_t_i">LÊ THỊ ÁNH NẮNG HỒNG TƯƠI</string>
+</resources>
