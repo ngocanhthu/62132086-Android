@@ -17,13 +17,13 @@
         <item name="android:statusBarColor">@color/white</item>
     </style>
 
-    <!--    <style name="editTextStyle" parent="">-->
-    <!--        <item name="android:paddingStart">12dp</item>-->
-    <!--        <item name="android:textColorHint">@color/gray</item>-->
-    <!--&lt;!&ndash;        <item name="android:background">@drawable/</item>&ndash;&gt;-->
-    <!--&lt;!&ndash;        <item name="android:layout_height">@dimen/editText_height</item>&ndash;&gt;-->
-    <!--        <item name="buttonStyle">?android:attr/borderlessButtonStyle</item>-->
-    <!--    </style>-->
+<!--    <style name="editTextStyle" parent="">-->
+<!--        <item name="android:paddingStart">12dp</item>-->
+<!--        <item name="android:textColorHint">@color/gray</item>-->
+<!--&lt;!&ndash;        <item name="android:background">@drawable/</item>&ndash;&gt;-->
+<!--&lt;!&ndash;        <item name="android:layout_height">@dimen/editText_height</item>&ndash;&gt;-->
+<!--        <item name="buttonStyle">?android:attr/borderlessButtonStyle</item>-->
+<!--    </style>-->
 
     <style name="editTextLayoutStyle" parent="Widget.MaterialComponents.TextInputLayout.FilledBox">
         <item name="boxStrokeWidth">0dp</item>
@@ -63,7 +63,7 @@
         <item name="cardElevation">4dp</item>
         <item name="cardBackgroundColor">@color/white</item>
     </style>
-
+    
     <style name="categoryHeadingTextStyle">
         <item name="android:textColor">@color/black</item>
         <item name="android:textSize">16sp</item>
