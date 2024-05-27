@@ -1,4 +1,4 @@
-package ntu.thu_62132086.duanthi_62132086
+package ntu.thu_62132086.myapplication
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
