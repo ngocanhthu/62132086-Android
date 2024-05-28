@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.sagarkhurana.quizobject">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.QuizForFun">
+        <activity android:name="com.sagarkhurana.quizobject.GeographyOrLiteratureQuizActivity"></activity>
+        <activity android:name="com.sagarkhurana.quizobject.FinalResultActivity" />
+        <activity android:name="com.sagarkhurana.quizobject.MathQuizActivity" />
+        <activity android:name="com.sagarkhurana.quizobject.EditPasswordActivity" />
+        <activity android:name="com.sagarkhurana.quizobject.HistoryActivity" />
+        <activity android:name="com.sagarkhurana.quizobject.RuleActivity" />
+        <activity android:name="com.sagarkhurana.quizobject.QuizOptionActivity" />
+        <activity android:name="com.sagarkhurana.quizobject.RegisterActivity" />
+        <activity
+            android:name="com.sagarkhurana.quizobject.LoginActivity"
+            android:theme="@style/splashScreenTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.sagarkhurana.quizobject.MainActivity" />
+    </application>
+
+</manifest>
