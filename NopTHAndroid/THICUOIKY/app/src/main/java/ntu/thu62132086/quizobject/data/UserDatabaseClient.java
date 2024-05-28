@@ -1,4 +1,4 @@
-package com.sagarkhurana.quizobject.data;
+package ntu.thu62132086.quizobject.data;
 
 import android.content.Context;
 

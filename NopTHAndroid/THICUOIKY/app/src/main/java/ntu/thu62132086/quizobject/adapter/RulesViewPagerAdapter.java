@@ -1,4 +1,4 @@
-package com.sagarkhurana.quizobject.adapter;
+package ntu.thu62132086.quizobject.adapter;
 
 import android.content.Context;
 import android.view.LayoutInflater;

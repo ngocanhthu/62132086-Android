@@ -1,4 +1,4 @@
-package com.sagarkhurana.quizobject.other;
+package ntu.thu62132086.quizobject.other;
 
 public class Constants {
 

@@ -1,4 +1,4 @@
-package com.sagarkhurana.quizobject.data;
+package ntu.thu62132086.quizobject.data;
 
 import androidx.room.Dao;
 import androidx.room.Delete;
