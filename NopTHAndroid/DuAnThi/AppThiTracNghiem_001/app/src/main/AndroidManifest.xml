@@ -29,10 +29,10 @@
             android:name="ntu.thu62132086.appthitracnghiem_001.MainActivity"
             android:exported="true" />
         <activity
-            android:name="ntu.thu62132086.appthitracnghiem_001.slide.TestDoneActivity"
+            android:name="ntu.thu62132086.appthitracnghiem_001.user.slide.TestDoneActivity"
             android:exported="true" />
         <activity
-            android:name="ntu.thu62132086.appthitracnghiem_001.slide.ScreenSlidePagerActivity"
+            android:name="ntu.thu62132086.appthitracnghiem_001.user.slide.ScreenSlidePagerActivity"
             android:exported="true" />
     </application>
 

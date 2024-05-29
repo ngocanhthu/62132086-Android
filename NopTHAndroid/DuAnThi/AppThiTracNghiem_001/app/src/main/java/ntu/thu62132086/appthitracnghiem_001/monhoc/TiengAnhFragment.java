@@ -19,7 +19,7 @@ import android.widget.Button;
 import android.widget.GridView;
 
 import  ntu.thu62132086.appthitracnghiem_001.R;
-import ntu.thu62132086.appthitracnghiem_001.slide.ScreenSlidePagerActivity;
+import ntu.thu62132086.appthitracnghiem_001.user.slide.ScreenSlidePagerActivity;
 
 import java.util.ArrayList;
 

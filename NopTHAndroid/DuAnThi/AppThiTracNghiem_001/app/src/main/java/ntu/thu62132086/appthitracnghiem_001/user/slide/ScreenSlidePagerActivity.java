@@ -1,4 +1,4 @@
-package ntu.thu62132086.appthitracnghiem_001.slide;
+package ntu.thu62132086.appthitracnghiem_001.user.slide;
 
 import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;

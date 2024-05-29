@@ -42,7 +42,7 @@
             android:foregroundTint="#fff"
             android:hint="Email"
             android:inputType="textPersonName"
-            android:textColorHint="#B6B2B2" />
+            android:textColorHint="#B33838" />
 
         <EditText
             android:id="@+id/edtPassword"
@@ -54,7 +54,7 @@
             android:foregroundTint="#fff"
             android:hint="Mật khẩu"
             android:inputType="textPersonName"
-            android:textColorHint="#B6B2B2" />
+            android:textColorHint="#BF2424" />
 
         <Button
             android:id="@+id/btn_SignIn"

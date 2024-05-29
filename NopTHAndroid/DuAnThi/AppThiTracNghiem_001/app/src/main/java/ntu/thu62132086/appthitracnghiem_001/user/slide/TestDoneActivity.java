@@ -1,4 +1,4 @@
-package ntu.thu62132086.appthitracnghiem_001.slide;
+package ntu.thu62132086.appthitracnghiem_001.user.slide;
 
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;

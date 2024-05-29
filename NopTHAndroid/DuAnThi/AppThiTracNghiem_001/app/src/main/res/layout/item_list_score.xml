@@ -6,7 +6,7 @@
     android:layout_margin="4dp">
     <TextView
         android:id="@+id/txtPlayerName"
-        android:text="Chánh"
+        android:text="Thu"
         android:gravity="center"
         android:textSize="16sp"
         android:textColor="@color/black"
@@ -34,7 +34,7 @@
     <TextView
         android:id="@+id/txtTime"
         android:gravity="center"
-        android:text="2021-10-17"
+        android:text="2024-10-17"
         android:textSize="16sp"
         android:textColor="@color/black"
         android:layout_width="wrap_content"
