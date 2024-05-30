@@ -15,7 +15,7 @@ import  ntu.thu62132086.appthitracnghiem_001.R;
 
 /**
  * A simple {@link Fragment} subclass.
- * Use the {@link ScoreFragment#newInstance} factory method to
+
  * create an instance of this fragment.
  */
 public class ScoreFragment extends Fragment {

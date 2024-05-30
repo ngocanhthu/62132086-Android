@@ -66,7 +66,6 @@ public class SignInActivity extends AppCompatActivity {
                     public void onComplete(@NonNull Task<AuthResult> task) {
                         if (task.isSuccessful()) {
                             progressDialog.dismiss();
-                            // Sign in success, update UI with the signed-in user's information
                           Intent intent= new Intent(SignInActivity.this, MainActivity.class);
                           startActivity(intent);
                           finishAffinity();

@@ -28,9 +28,9 @@ public class CongThucFragment extends Fragment {
     ListView lvCongThuc;
     CongThucController congThucController;
     CongThucAdapter congThucAdapter;
-    EditText edtSeach;
     ImageButton imgChude;
     String chude="";
+    EditText edtSeach;
 
     public CongThucFragment() {
         // Required empty public constructor
